@@ -34,6 +34,7 @@ public class LoginPage extends BasePage {
 		userName.sendKeys(un);
 		password.sendKeys(pw);
 		loginBtn.click();
+		System.out.println("Login");
 
 		return new HomePage();
 	}
